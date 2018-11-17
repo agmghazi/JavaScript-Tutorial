@@ -8,9 +8,24 @@ var Name="ahmed";
 var $name=45;
 var sum = $name+name1;
 
-document.writeln(sum);
+// document.writeln(sum);
 
 function myclick() {
     alert("new alert");
 }
 
+// === this qual for type and value
+// == this qual for value only
+if (1=="1" & 2 === "2" ) {
+    document.write("equal 1"); 
+} else if (1==="1" | 2 === "2") {
+    document.write("equal 2");  
+}else if (1===1)
+{
+    document.write("equal 3");  
+
+}
+else
+{ 
+     document.write("not equal");
+}
