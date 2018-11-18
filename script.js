@@ -48,3 +48,14 @@ for (let i = 0; i<10 ; i++) {
     document.write( i+" - "+"ahmed jamal <br>");
     
 }
+
+var x= 10
+while (x<=20) {
+    document.write( x +"<br>");
+    x++;
+}
+
+do {
+    document.write( x +"<br>");
+    x++;
+} while (x<=20);
