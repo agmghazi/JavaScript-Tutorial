@@ -71,3 +71,13 @@ lastname:"midoo"
 }
 
 document.write(person.names + " " + "age = "+ person.age);
+
+document.write("<br>");
+function myemployee(id,name,lname,age) {
+    this.id=id;
+    this.name=name;
+    this.lname=lname;
+    this.age=age;
+}
+emp=new myemployee(1,"ahmed","jamal",26);
+document.write(emp.name+ " "+emp.lname + " "+emp.age);
