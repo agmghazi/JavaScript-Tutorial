@@ -29,3 +29,17 @@ else
 { 
      document.write("not equal");
 }
+var today="sunday";
+var result;
+
+switch (today) {
+    case "sunday":
+        result="sunday"
+        break;
+        case "monday" :
+        result ="monday"
+    default:
+        break;
+}
+
+document.write(result);
