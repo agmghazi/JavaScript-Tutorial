@@ -81,3 +81,12 @@ function myemployee(id,name,lname,age) {
 }
 emp=new myemployee(1,"ahmed","jamal",26);
 document.write(emp.name+ " "+emp.lname + " "+emp.age);
+
+document.write("<br>");
+document.write("<br>");
+
+var myname = ["ahmed","essa","hamed"];
+for (let index = 0; index < myname.length; index++) {
+    const element = myname[index];
+document.write(element + "<br>");    
+}
