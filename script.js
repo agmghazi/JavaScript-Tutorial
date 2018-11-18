@@ -59,3 +59,7 @@ do {
     document.write( x +"<br>");
     x++;
 } while (x<=20);
+
+function age(num1) {
+    alert("my age is " + num1);
+}
