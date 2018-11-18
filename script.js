@@ -63,3 +63,11 @@ do {
 function age(num1) {
     alert("my age is " + num1);
 }
+
+person={
+names:"ahmed",
+age:20,
+lastname:"midoo"
+}
+
+document.write(person.names + " " + "age = "+ person.age);
