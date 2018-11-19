@@ -172,3 +172,11 @@ document.write(mydate + "<br>");
 document.write(myMonth+1 + "<br>");
 document.write(myYear + "<br>");
 document.write(myHours + "<br>");
+
+document.write("<br>");
+document.write("<br>");
+
+function fname() {
+    window.history.back();
+    window.history.forward();
+}
