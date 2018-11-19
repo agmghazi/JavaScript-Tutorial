@@ -134,6 +134,9 @@ document.write(lname.toLowerCase() + "<br>");
 document.write(lname.slice(1,3) + "<br>");
 document.write(myname.trim() + "<br>");
 
+document.write("<br>");
+document.write("<br>");
+
 var num122 = 4;
 var num52= Math.sqrt(num122);
 var numMath = Math.random(4);
@@ -148,3 +151,9 @@ document.write(numPow + "<br>");
 document.write(numFloor + "<br>");
 document.write(numCeil + "<br>");
 
+document.write("<br>");
+document.write("<br>");
+
+document.write(1<2);
+document.write("<br>");
+document.write(22<1);
