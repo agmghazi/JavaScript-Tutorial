@@ -220,3 +220,11 @@ document.write("<br>");
 
 var nname = document.getElementByTagName("INPUT")[0].value;
 document.getElementById("addelmm").innerHTML=nname;
+
+document.write("<br>");
+document.write("<br>");
+
+function CreateForm() {
+    var myform = ' <input type="text"><input type="text"><input type="time"><button></button>'
+  document.getElementById("created").innerHTML=myform;
+}
