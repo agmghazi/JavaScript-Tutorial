@@ -209,7 +209,14 @@ fscreen();
 document.write("<br>");
 document.write("<br>");
 
+
 document.getElementById("addelm").innerHTML("ahmed jamal");
 function name12() {
     document.getElementById("inpelme").value = "ahmed jamal";
 }
+
+document.write("<br>");
+document.write("<br>");
+
+var nname = document.getElementByTagName("INPUT")[0].value;
+document.getElementById("addelmm").innerHTML=nname;
