@@ -90,3 +90,29 @@ for (let index = 0; index < myname.length; index++) {
     const element = myname[index];
 document.write(element + "<br>");    
 }
+
+document.write("<br>");
+document.write("<br>");
+
+var num11=22;
+var num22=2.4112244;
+var num33=25e3;
+//var num44= new number(14);
+
+num55=num22.toFixed(2);
+num77=num22.toPrecision(3);
+num88=num22.toExponential(1);
+
+num66=num11.toString();
+
+
+document.write( num11);
+document.write( num22+"<br>");
+document.write( num33+"<br>");
+document.write( num55+"<br>");
+document.write( num66+"<br>");
+document.write( num77+"<br>");
+document.write( num88+"<br>");
+document.write( typeof(num88)+"<br>");
+
+//document.write( num44+"<br>");
