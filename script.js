@@ -116,3 +116,22 @@ document.write( num88+"<br>");
 document.write( typeof(num88)+"<br>");
 
 //document.write( num44+"<br>");
+
+document.write("<br>");
+document.write("<br>");
+
+
+var myname ="         ahmed jamal jamal";
+var lname = new String ("jamal");
+
+document.write(myname.charAt(3) + "<br>");
+document.write(lname.charAt(2) + "<br>");
+document.write(myname.concat(lname) + "<br>");
+document.write(lname.indexOf("al") + "<br>");
+document.write(lname.lastIndexOf("ja") + "<br>");
+document.write(lname.toUpperCase() + "<br>");
+document.write(lname.toLowerCase() + "<br>");
+document.write(lname.slice(1,3) + "<br>");
+document.write(myname.trim() + "<br>");
+
+
