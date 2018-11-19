@@ -177,6 +177,15 @@ document.write("<br>");
 document.write("<br>");
 
 function fname() {
-    window.history.back();
-    window.history.forward();
+   // window.history.back();
+   // window.history.forward();
+
+   document.write("<br>" + " appCodeName - "+   window.navigator.appCodeName);
+   document.write("<br>" + " appName - "+ window.navigator.appName);
+   document.write("<br>" + " cookieEnabled - "+ window.navigator.cookieEnabled);
+   document.write("<br>" + " language - "+ window.navigator.language);
+   document.write("<br>" +  " platform - "+ window.navigator.platform);
+   document.write("<br>" +  " platform - "+ window.navigator.platform);
+  
 }
+fname();
