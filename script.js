@@ -205,3 +205,11 @@ function fscreen() {
   
 }
 fscreen();
+
+document.write("<br>");
+document.write("<br>");
+
+document.getElementById("addelm").innerHTML("ahmed jamal");
+function name12() {
+    document.getElementById("inpelme").value = "ahmed jamal";
+}
