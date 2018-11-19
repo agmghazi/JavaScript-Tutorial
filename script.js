@@ -189,3 +189,19 @@ function fname() {
   
 }
 fname();
+
+document.write("<br>");
+document.write("<br>");
+
+function fscreen() {
+   
+
+   document.write("<br>" + " width - "+   window.screen.width);
+   document.write("<br>" + " height - "+ window.screen.height);
+   document.write("<br>" + " colorDepth - "+ window.screen.colorDepth);
+   document.write("<br>" + " pixelDepth - "+ window.screen.pixelDepth);
+   document.write("<br>" +  " availHeight - "+ window.screen.availHeight);
+   document.write("<br>" +  " availWidth - "+ window.screen.availWidth);
+  
+}
+fscreen();
