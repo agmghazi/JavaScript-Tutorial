@@ -157,3 +157,18 @@ document.write("<br>");
 document.write(1<2);
 document.write("<br>");
 document.write(22<1);
+
+document.write("<br>");
+document.write("<br>");
+
+var mydate = new Date();
+
+var myDay= mydate.getDate();
+var myMonth= mydate.getMonth();
+var myYear= mydate.getFullYear();
+var myHours = mydate.getHours();
+
+document.write(mydate + "<br>");
+document.write(myMonth+1 + "<br>");
+document.write(myYear + "<br>");
+document.write(myHours + "<br>");
